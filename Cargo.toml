@@ -1,7 +1,9 @@
 [package]
-name = "image_processing"
+name = "learn_rust"
 version = "0.1.0"
 edition = "2021"
 
-[dependencies]
-image = "0.25.1"
+[workspace]
+members = [
+  "crop_image"
+]
